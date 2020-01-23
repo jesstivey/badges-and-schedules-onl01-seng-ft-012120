@@ -19,6 +19,7 @@ def assign_rooms(attendees)
   attendees.each do |attendee|
     sentence = "Hello, #{attendee}! You'll be assigned to room #{room}!"
     new_array << sentence
+    room += 1 
   end 
   new_array
 end  
