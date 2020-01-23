@@ -29,7 +29,8 @@ def printer(attendees)
   
   
   attendees.each_with_index do |attendee, idx|
-    puts badge_maker(attendee)
+    puts badges[idx]
+    puts assignments[idx]
   end
 end 
 
