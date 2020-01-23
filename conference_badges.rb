@@ -28,14 +28,12 @@ def printer(attendees)
     puts result
   end
   
-  other_results = batch_badge_creator(attendees)
-  other_results.each do |result|
-    puts result
-  end
+  badges = batch_badge_creator(attendees)
+ 
   
   
   attendees.each_with_index do |attendee, idx|
-    
+    puts badge_maker(attendee)
   end
 end 
 
