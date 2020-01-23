@@ -14,7 +14,3 @@ def assign_rooms
 end  
 
 
-def puts(arg)
-  #take the arg and do some kind of weird magic that prints that into the terminal
-  nil
-end
