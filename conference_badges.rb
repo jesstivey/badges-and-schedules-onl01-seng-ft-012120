@@ -21,10 +21,9 @@ def assign_rooms(attendees)
   end 
   new_array
 end  
-require 'pry'
+
 def printer(attendees)
   results = batch_badge_creator(attendees)
-  binding.pry
   results.each do |result|
     puts result
   end
