@@ -16,7 +16,7 @@ end
 def assign_rooms(attendees)
   new_array = []
   attendees.each do |attendee|
-    sentence = "Hello, my name is #{attendee}."
+    sentence = "Hello, #{attendee}! You'll be assigned to room #{room}!"
     new_array << sentence
   end 
   new_array
