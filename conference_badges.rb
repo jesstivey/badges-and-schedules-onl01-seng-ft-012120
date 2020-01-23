@@ -32,5 +32,10 @@ def printer(attendees)
   other_results.each do |result|
     puts result
   end
+  
+  
+  attendees.each_with_index do |attendee, idx|
+    
+  end
 end 
 
