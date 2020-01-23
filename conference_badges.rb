@@ -25,9 +25,7 @@ require 'pry'
 def printer(attendees)
   results = batch_badge_creator(attendees)
   binding.pry
-  results.each do |result|
-    puts result
-  end
+  batch_badge_creator
   
 end 
 
